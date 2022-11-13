@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Libari</title>
+</head>
+<body>
+    <main>
+        <img src="./images/logo.png" alt="Libari Logo" class="logo">
+        <div id="add-book" class="button-styling">Add Book</div>
+        <div class="modal">
+            <div class="modal-content">
+                <div class="close-cont">
+                    <div class="close-button alt-button-styling button-styling">&times;</div>
+                </div>
+                <div class="book-input">
+                    <div class="title-auth-cont input-cont">
+                        <div class="title-cont hor-input">
+                            <div class="title-head">Title*</div>
+                            <input type="text" class="title-input input-boxes">
+                        </div>
+                        <div class="author-cont hor-input">
+                            <div class="author-head">Author*</div>
+                            <input type="text" class="author-input input-boxes">
+                        </div>
+                    </div>
+                    <div class="sum-cont">
+                        <div class="sum-head">Summary*</div>
+                        <textarea name="sum-input" cols="1" rows="10" class="sum-input input-boxes textarea-boxes" placeholder="Add a synopsis of the book here! If you have read the book add your own."></textarea>
+                    </div>
+                    <div class="read-page-cont input-cont">
+                        <div class="read-cont hor-input">
+                            <label for="read-status">Read Yet*</label>
+                            <select name="read-status" id="read-selector" class="read-status input-boxes">
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                                <option value="Choose" class="low-opacity" selected>Choose One</option>
+                            </select>
+                        </div>
+                        <div class="curr-page-cont hor-input ">
+                            <div class="curr-page-head">Current Page</div>
+                            <input type="number" class="curr-page-input input-boxes">
+                        </div>
+                    </div>
+                    <div class="cover-cont">
+                        <div class="cover-head">Paste the URL of your book cover here*</div>
+                        <input type="text" class="cover-input input-boxes">
+                    </div>
+                </div>
+                <div class="submit-cont">
+                    <div id="submit-button" class="submit-button button-styling">Submit</div>
+                </div>
+            </div>
+        </div>
+        <div id="book-display">
+            <img src="" alt="" id="book-cover"></img>
+            <div class="book-info">
+                <div id="book-title"></div>
+                <div id="book-auth"></div>
+                <div id="book-desc"></div>
+                <div class="read-page">
+                    <div id="book-read"></div>
+                    <div id="book-page"></div>
+                </div>
+                <div id="sum-section">
+                    <div class="sum-header">
+                        <div>Personal Summary</div>
+                        <div id="edit-sum-btn" class="button-styling alt-button-styling">Edit</div>
+                        <div id="save-sum-btn" class="button-styling alt-button-styling hide">Save</div>
+                    </div>
+                    <textarea name="summary" id="book-sum" cols="1" rows="10" class="textarea-boxes input-boxes" readonly placeholder="This is where you can write your own personal summary!"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div id="prev-book" class="button-styling">Previous Book</div>
+            <div id="next-book" class="button-styling">Next Book</div>
+        </div>
+    </main>
+</body>
+</html>

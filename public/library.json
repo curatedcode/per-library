@@ -1,0 +1,41 @@
+[
+	{
+		"id": 0,
+		"title": "A Little Life",
+		"author": "Hanya Yanagihara",
+		"read": "No",
+		"page": "0",
+		"desc": "A Little Life follows four college classmates—broke, adrift, and buoyed only by their friendship and ambition—as they move to New York in search of fame and fortune. While their relationships, which are tinged by addiction, success, and pride, deepen over the decades, the men are held together by their devotion to the brilliant, enigmatic Jude, a man scarred by an unspeakable childhood trauma. A hymn to brotherly bonds and a masterful depiction of love in the twenty-first century, Hanya Yanagihara’s stunning novel is about the families we are born into, and those that we make for ourselves.",
+		"cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1446469353l/22822858._SY475_.jpg",
+		"summary": ""
+	},
+	{
+		"id": 1,
+		"title": "Killers of a Certain Age",
+		"author": "Deanna Raybourn",
+		"read": "No",
+		"page": "0",
+		"desc": "They\"ve spent their lives as the deadliest assassins in a clandestine international organization, but now that they\"re sixty years old, four women friends can\"t just retire - it\"s kill or be killed in this action-packed thriller.",
+		"cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649796916l/60149532._SY475_.jpg",
+		"summary": ""
+	},
+	{
+		"id": 2,
+		"title": "Kingdom of the Feared",
+		"author": "Kerri Maniscalco",
+		"read": "Yes",
+		"page": "23",
+		"desc": "Emilia is reeling from the shocking discovery that her twin sister, Victoria, is alive. But before she faces the demons of her past, Emilia yearns to claim her king, the seductive Prince of Wrath, in the flesh. Emilia doesn’t simply desire his body, she wants his heart and soul—but that’s something the enigmatic demon can’t promise her.",
+		"cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1644386147l/58470171._SY475_.jpg",
+		"summary": ""
+	},
+	{
+		"id": 3,
+		"title": "Running The Amazon",
+		"author": "Joe Kane",
+		"read": "No",
+		"page": "",
+		"desc": "The voyage began in the lunar terrain of the Peruvian Andes, where coca leaf is the only remedy against altitude sickness. It continued down rapids so fierce they could swallow a raft in a split second. It ended six months and 4,200 miles later, where the Amazon runs gently into the Atlantic. Joe Kane's personal account of the first expedition to travel the entirety of the world's longest river is a riveting adventure in the tradition of Joseph Conrad, filled with death-defying encounters: with narco-traffickers and Sendero Luminoso guerrillas and nature at its most unforgiving. Not least of all, Running the Amazon shows a polyglot group of urbanized travelers confronting their wilder selves -- their fear and egotism, selflessness and courage.",
+		"cover": "https://m.media-amazon.com/images/I/51pBxwG2P0L.jpg"
+	}
+]
